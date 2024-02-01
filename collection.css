@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    font-family: Impact;
+    background-image: url(img5.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+    display: inline-block;
+    word-spacing: 35px;
+    border: 3px solid white;
+    width: 1000px;
+    padding: 15px;
+    border-radius: 15px;
+    background: linear-gradient(white, black);
+}
+li{
+    display: inline;
+}
+button{
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow:  0 0 5px white , 0 0 25px black;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    box-shadow: 0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px black, 0 0 200px black;
+    font-size: 12px;
+}
+a{
+    color: white;
+    
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    
+}

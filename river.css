@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    font-family: monospace;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+ul{
+    display: inline-block;
+    word-spacing: 35px;
+    border: 3px solid white;
+    width: 1000px;
+    padding: 15px;
+    border-radius: 15px;
+    background: linear-gradient(red, black);
+}
+li{
+    display: inline;
+    color: black;
+}
+button{
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow:  0 0 5px orange , 0 0 25px black;
+    background-color: white;
+    color: white;
+}
+button:hover{
+    box-shadow: 0 0 5px white, 0 0 white, 0 0 50px white, 0 0 100px white, 0 0 200px white;
+    font-size: 12px;
+}
+a{
+    color: black;
+    
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+h1{
+    font-size: 40px;
+    
+}
